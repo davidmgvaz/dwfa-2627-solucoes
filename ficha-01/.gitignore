@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (a partir da Aula 05 · from Aula 05 on)
+node_modules/
+dist/
+
+# Segredos e dados locais · secrets and local data — NUNCA no git · NEVER in git
+.env
+*.sqlite3
+pgdata/
+
+# Editores · editors
+.vscode/
+.idea/
+.DS_Store
