@@ -8,8 +8,8 @@
 | Ficha | Tema · Topic | Prazo · Deadline | Pasta · Folder |
 |---|---|---|---|
 | 01 | Ambiente, projeto Django, PostgreSQL em Docker, `/api/health/` · Environment, Django project, PostgreSQL in Docker, `/api/health/` | 16/10/2026 | [`ficha-01/`](ficha-01/) |
-| 02 | Modelos, ORM, migrações · REST com DRF · Models, ORM, migrations · REST with DRF | 23/10/2026 | `ficha-02/` |
-| 03 | JWT, permissões, CORS/CSP · JWT, permissions, CORS/CSP | 30/10/2026 | `ficha-03/` |
+| 02 | Modelos, ORM, migrações · REST com DRF · Models, ORM, migrations · REST with DRF | 23/10/2026 | [`ficha-02/`](ficha-02/) |
+| 03 | JWT, permissões por papel e por objeto, CORS, throttling, `check --deploy` · JWT, role and object permissions, CORS, throttling, `check --deploy` | 30/10/2026 | `ficha-03/` (depois do prazo · after the deadline) |
 | 04 | SPA Vue autenticada · Authenticated Vue SPA | 13/11/2026 | `ficha-04/` |
 | 05 | Tarefas, WebSockets, caching, JSONB/Redis · Tasks, WebSockets, caching, JSONB/Redis | 20/11/2026 | `ficha-05/` |
 | 06 | Performance e observabilidade sobre o M2 · Performance and observability on M2 | 02/12/2026 | `ficha-06/` |
