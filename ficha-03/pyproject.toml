@@ -1,0 +1,36 @@
+[project]
+name = "isla-dwfa-ecommerce"
+version = "0.3.0"
+description = "DWFA 2026/27 · Ficha 03 — solução de referência · reference solution"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2,<5.3",
+    "django-environ>=0.14.0",
+    "psycopg[binary]>=3.2",
+    "djangorestframework>=3.16",
+    "django-filter>=25.1",
+    "drf-spectacular>=0.28",
+    "djangorestframework-simplejwt>=5.5",
+    "django-cors-headers>=4.7",
+    "argon2-cffi>=23.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-django>=4.9",
+    "factory-boy>=3.3",
+    "ruff>=0.9",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+extend-exclude = ["migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "DJ"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["config", "accounts", "core", "shop"]
